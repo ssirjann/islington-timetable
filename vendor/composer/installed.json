@@ -1,0 +1,37 @@
+[
+    {
+        "name": "asika/pdf2text",
+        "version": "1.0.4",
+        "version_normalized": "1.0.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/asika32764/php-pdf-2-text.git",
+            "reference": "dc11795dd0c4c60dec8ae9b034d357a017ba7c77"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/asika32764/php-pdf-2-text/zipball/dc11795dd0c4c60dec8ae9b034d357a017ba7c77",
+            "reference": "dc11795dd0c4c60dec8ae9b034d357a017ba7c77",
+            "shasum": ""
+        },
+        "time": "2016-07-20 09:52:28",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Asika\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL v2"
+        ],
+        "authors": [
+            {
+                "name": "Simon Asika",
+                "email": "asika32764@gmail.com"
+            }
+        ],
+        "description": "Simple PHP PDF to text class."
+    }
+]
