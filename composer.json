@@ -1,0 +1,5 @@
+{
+    "require": {
+        "asika/pdf2text": "^1.0"
+    }
+}

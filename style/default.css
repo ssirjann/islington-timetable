@@ -1,0 +1,30 @@
+.body *{
+	font-size: .5em !important;
+}
+.pagination button, #reset{
+	background: linear-gradient(#777, #444);
+	color: white;
+	cursor: pointer;
+}
+
+.pagination {
+	float: right;
+	width: 50%;
+	margin: 20px 40px 0 0;
+}
+
+#next {
+	border-radius: 3px 20px 3px 20px;
+}
+
+#previous {
+	border-radius: 20px 3px 20px 3px;
+}
+#reset {
+	float: right;
+}
+
+.pagination button[disabled=disabled], button[disabled=disabled] {
+	opacity: .4;
+	cursor: not-allowed;
+}
